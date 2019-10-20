@@ -9,8 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        WebElement weTopBanner = driver.findElement();
-
+//        WebElement weTopBanner = driver.findElement();
 
         String xpathTopBanner = "//a[@title='']";
         String xpathShopPhoneTitle = ""; // //*[@class='shop-phone'][.='text']
